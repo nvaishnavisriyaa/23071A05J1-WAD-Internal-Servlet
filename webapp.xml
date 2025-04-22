@@ -1,0 +1,10 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+    <servlet>
+        <servlet-name>CookiesServlet</servlet-name>
+        <servlet-class>CookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookiesServlet</servlet-name>
+        <url-pattern>/cookiesservlet</url-pattern>
+    </servlet-mapping>
+</web-app>
